@@ -1,0 +1,13 @@
+com\citibank\enroll\customers\builder\EnrollmentResourceReqBuilder.class
+com\citibank\enroll\customers\exception\EnrollmentReqInvalidException.class
+com\citibank\enroll\customers\builder\EnrollmentResourceRespBuilder.class
+com\citibank\enroll\customers\model\CustomerInfo.class
+com\citibank\enroll\customers\model\StatusBlock.class
+com\citibank\enroll\customers\model\EnrollmentResourceReq.class
+com\citibank\enroll\customers\util\EnrollmentResourceConstant.class
+com\citibank\enroll\customers\validator\EnrollmentReqValidator.class
+com\citibank\enroll\customers\model\ServiceDetails.class
+com\citibank\enroll\customers\util\EnrollmentResourceUtil.class
+com\citibank\enroll\customers\model\ClientContext.class
+com\citibank\enroll\customers\resource\EnrollmentResource.class
+com\citibank\enroll\customers\model\EnrollmentResourceRes.class

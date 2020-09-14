@@ -1,0 +1,25 @@
+package com.st.jackson;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.st.jackson.model.Order;
+
+public class JsonSerializationDemo {
+
+	public static void main(String[] args) throws JsonProcessingException {
+		// TODO Auto-generated method stub
+		Order order=new Order();
+		order.setOid("1234");
+		order.setOname("mobiles");
+		order.setDesc(true);
+		ObjectMapper mapper=new ObjectMapper();
+	//String jsonndata=	mapper.writeValueAsString(order);
+		String jsonndata=	mapper.writerWithDefaultPrettyPrinter().writeValueAsString(order);
+
+
+	
+	System.out.println(" json data is   :"+jsonndata);
+
+	}
+
+}

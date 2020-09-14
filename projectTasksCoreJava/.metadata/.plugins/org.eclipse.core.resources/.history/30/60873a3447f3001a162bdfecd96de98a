@@ -1,0 +1,32 @@
+package com.citi.processor;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+import com.citi.models.OrderDetailsResp;
+import com.citi.models.TaskResult;
+import com.citi.tasks.OrdersDaoTask;
+import com.citi.tasks.OrdersInfoTasks;
+
+public class OrderProcessor {
+	public OrderDetailsResp getOrders(String oid) throws InterruptedException, ExecutionException {
+		ExecutorService svc=Executors.newFixedThreadPool(2);
+		Set tasks=new HashSet();
+		tasks.add(new OrdersInfoTasks(oid));
+		tasks.add(new OrdersDaoTask(oid));
+		List<Future<TaskResult>> futureList=svc.invokeAll(tasks);
+		for(Future future:futureList) {
+			TaskResult taskResult=(TaskResult) future.get();
+			String taskName=taskResult.getTaskName();
+			if()
+		}
+		return null;
+		
+	}
+
+}

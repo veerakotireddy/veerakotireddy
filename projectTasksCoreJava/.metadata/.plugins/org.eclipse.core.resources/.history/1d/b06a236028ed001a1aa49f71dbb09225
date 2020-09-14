@@ -1,0 +1,11 @@
+package com.citi.models;
+
+public class TaskResult {
+
+private String name;
+private String date;
+private String price;
+
+	
+	
+}

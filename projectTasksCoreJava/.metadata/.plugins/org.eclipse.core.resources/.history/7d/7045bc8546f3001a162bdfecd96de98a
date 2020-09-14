@@ -1,0 +1,15 @@
+package com.citi.processor;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import com.citi.models.OrderDetailsResp;
+
+public class OrderProcessor {
+	public OrderDetailsResp getOrders(String oid) {
+		ExecutorService svc=Executors.newFixedThreadPool(2);
+		return null;
+		
+	}
+
+}

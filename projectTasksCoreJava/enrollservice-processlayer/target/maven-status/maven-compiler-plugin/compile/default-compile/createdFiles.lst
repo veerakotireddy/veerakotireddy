@@ -1,0 +1,8 @@
+com\citibank\enroll\customers\process\model\EnrollmentProcessRes.class
+com\citibank\enroll\customers\process\model\EnrollmentProcessReq.class
+com\citibank\enroll\customers\process\util\EnrollmentProcessConstant.class
+com\citibank\enroll\customers\process\builder\EnrollmentProcessRespBuilder.class
+com\citibank\enroll\customers\process\builder\EnrollmentProcessReqBuilder.class
+com\citibank\enroll\customers\process\impl\EnrollmentProcessImpl.class
+com\citibank\enroll\customers\process\EnrollmentProcess.class
+com\citibank\enroll\customers\process\util\EnrollmentProcessUtil.class

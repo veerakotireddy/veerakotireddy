@@ -1,0 +1,153 @@
+package com.citibank.enroll.customers.resource;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import com.citibank.enroll.customers.builder.EnrollmentResourceReqBuilder;
+import com.citibank.enroll.customers.builder.EnrollmentResourceRespBuilder;
+import com.citibank.enroll.customers.dao.exception.BusinessException;
+import com.citibank.enroll.customers.dao.exception.SystemException;
+import com.citibank.enroll.customers.exception.EnrollmentReqInvalidException;
+import com.citibank.enroll.customers.model.ClientContext;
+import com.citibank.enroll.customers.model.CustomerInfo;
+import com.citibank.enroll.customers.model.EnrollmentResourceReq;
+import com.citibank.enroll.customers.model.EnrollmentResourceRes;
+import com.citibank.enroll.customers.model.ServiceDetails;
+import com.citibank.enroll.customers.model.StatusBlock;
+import com.citibank.enroll.customers.process.EnrollmentProcess;
+import com.citibank.enroll.customers.process.impl.EnrollmentProcessImpl;
+import com.citibank.enroll.customers.process.model.EnrollmentProcessReq;
+import com.citibank.enroll.customers.process.model.EnrollmentProcessRes;
+import com.citibank.enroll.customers.validator.EnrollmentReqValidator;
+
+@Path("/v1")
+public class EnrollmentResource {
+	/**
+	 * * json data is   :{
+  "clientContext" : {
+    "clientId" : "citi",
+    "channelId" : "mobile",
+    "requestId" : "f0946924-2531-41bb-a33d-d44469a06a31",
+    "messageTimeStamp" : "somthing"
+  },
+  "customerInfo" : {
+    "mobileNumber" : [ "9160606950", "9154539575" ],
+    "cardNumber" : "20261363818889",
+    "cvv" : "889",
+    "expDate" : "20-12-2020",
+    "nameOnCard" : "vadicharla veerakotireddy"
+  },
+  "serviceDetails" : {
+    "serviceName" : "enrollmentService",
+    "apiName" : "enrollment",
+    "version" : "1.0"
+  }
+}
+
+	 * @param request
+	 * @return
+	 * @throws IOException 
+	 */
+	@Path("/enrollment")
+	@Consumes(MediaType.APPLICATION_JSON)// this is request representation convert-: json to java
+	@Produces(MediaType.APPLICATION_JSON)// this is response representation convert java to json
+	@POST
+	public EnrollmentResourceRes enroll(EnrollmentResourceReq request) throws IOException {
+
+
+		System.out.println("entered into resource layer "+request);
+		//1. get the req from consumer or client 
+		EnrollmentResourceRes resourceRes=null;
+		try {
+			//2. validate the request
+
+			EnrollmentReqValidator reqValidator=new EnrollmentReqValidator();
+			reqValidator.validateRequest(request);
+			//3. prepare the request from process layer with the help of resource layer. convert resource request to process request
+			EnrollmentResourceReqBuilder reqBuilder=new EnrollmentResourceReqBuilder();
+			EnrollmentProcessReq processReq=reqBuilder.buildProcessEnrollReq(request);
+
+			processReq.setNameOnCard(request.getCustomerInfo().getNameOnCard());
+
+			//4.call the process layer  by passing process req and get process response
+			EnrollmentProcess process=new EnrollmentProcessImpl();
+			EnrollmentProcessRes processRes=process.enroll(processReq);
+			//5.prepare the resource response
+
+			EnrollmentResourceRespBuilder resourceRespBuilder=new EnrollmentResourceRespBuilder();
+			resourceRes=resourceRespBuilder.buildResourceResp(processRes,request);
+		}catch (EnrollmentReqInvalidException exce) {
+			resourceRes=new EnrollmentResourceRes();
+
+			StatusBlock statusBlock=new StatusBlock();
+			statusBlock.setRespCode(exce.getRespCode());
+			statusBlock.setRespMsg(exce.getRespMsg());
+			resourceRes.setStatus(statusBlock);
+		} catch (BusinessException e) {
+			resourceRes=new EnrollmentResourceRes();
+
+			StatusBlock statusBlock=new StatusBlock();
+			statusBlock.setRespCode(e.getRespCode());
+			statusBlock.setRespMsg(e.getRespMsg());
+			resourceRes.setStatus(statusBlock);
+			e.printStackTrace();
+		} catch (SystemException e) {
+			resourceRes=new EnrollmentResourceRes();
+
+			StatusBlock statusBlock=new StatusBlock();
+			statusBlock.setRespCode(e.getRespCode());
+			statusBlock.setRespMsg(e.getRespMsg());
+			resourceRes.setStatus(statusBlock);
+			e.printStackTrace();
+		}
+
+
+		//6.send resource responce to client or consumer
+
+		System.out.println("exit from resource layer "+resourceRes);
+
+
+		return resourceRes;
+
+	}
+	public static void main(String[] args) throws IOException {
+
+		EnrollmentResourceReq request=new EnrollmentResourceReq();
+		ClientContext clientContext=new ClientContext();
+		clientContext.setClientId("citi");
+		clientContext.setChannelId("mobile");
+		clientContext.setRequestId(UUID.randomUUID().toString());
+		clientContext.setMessageTimeStamp("somthing");
+
+		CustomerInfo customerInfo=new CustomerInfo();
+		List<String> mobileNumber=new ArrayList<String>();
+		mobileNumber.add("9160606950");
+		mobileNumber.add("9154539575");
+
+		customerInfo.setMobileNumber(mobileNumber);
+		customerInfo.setCardNumber("20261363818889");
+		customerInfo.setCvv("889");
+		customerInfo.setExpDate("20-12-2020");
+		customerInfo.setNameOnCard("vadicharla veerakotireddy");
+		ServiceDetails serviceDetails =new ServiceDetails();
+		serviceDetails.setServiceName("enrollmentService");
+		serviceDetails.setApiName("enrollment");
+		serviceDetails.setVersion("1.0");
+		request.setClientContext(clientContext);
+		request.setCustomerInfo(customerInfo);
+		request.setServiceDetails(serviceDetails);
+
+		EnrollmentResource resource=new EnrollmentResource();
+		EnrollmentResourceRes resourceRes=resource.enroll(request);
+
+	}
+	
+
+}

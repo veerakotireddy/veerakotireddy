@@ -1,0 +1,56 @@
+package com.st.jackson;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.st.jackson.model.Account;
+import com.st.jackson.model.Customer;
+import com.st.jackson.model.Order;
+
+public class JsonSerializationDemo {
+
+	public static void main(String[] args) throws JsonProcessingException {
+		
+		Customer customer=new Customer();
+		customer.setFname("veera");
+		customer.setLname("vadicharla");
+		customer.setMobile("9160606950");
+		customer.setAddress("machavaram");
+		customer.setDob("22-09-1994");
+		customer.setEmail("vvkoti221994@gmail.com");
+		customer.setGender("male");
+		customer.setTitle("customer details");
+		
+		// TODO Auto-generated method stub
+		Order order=new Order();
+		order.setOid("1234");
+		order.setOname("mobiles");
+		order.setDesc(true);
+		Order order1=new Order();
+		order1.setOid("666");
+		order1.setOname("vh");
+		order1.setDesc(false);
+		List orderlist=new ArrayList<Order>();
+		orderlist.add(order);
+		orderlist.add(order1);
+		customer.setOrderlist(orderlist);
+		Account account=new Account();
+		account.setAccountnumber("5456555656565");
+		account.setBankname("sbi");
+		account.setBranchname("nrt");
+		account.setBalance(12656.22);
+		customer.setAccount(account);
+		
+		ObjectMapper mapper=new ObjectMapper();
+	//String jsonndata=	mapper.writeValueAsString(order);
+		String jsonndata=	mapper.writerWithDefaultPrettyPrinter().writeValueAsString(order);
+
+
+	
+	System.out.println(" json data is   :"+jsonndata);
+
+	}
+
+}

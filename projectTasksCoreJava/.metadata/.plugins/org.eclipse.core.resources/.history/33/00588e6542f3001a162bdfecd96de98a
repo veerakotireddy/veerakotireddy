@@ -1,0 +1,14 @@
+package com.citi.dao;
+
+import com.citi.models.OrderDAOBean;
+
+public class OrdersDAO {
+
+	public OrderDAOBean getOrder(String oid) {
+		OrderDAOBean orderDAOBean=new OrderDAOBean();
+		orderDAOBean.setDesc("good");
+		orderDAOBean.setStatus("delivered");
+		return orderDAOBean;
+		
+	}
+}
