@@ -26,6 +26,7 @@ public class OrderProcessor {
 		tasks.add(new OrdersInfoTasks(oid));
 		tasks.add(new OrdersDaoTask(oid));
 		System.out.println("start parallel calls");
+	
 
 		List<Future<TaskResult>> futureList=svc.invokeAll(tasks);
 		for(Future future:futureList) {

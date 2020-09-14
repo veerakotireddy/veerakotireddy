@@ -1,0 +1,14 @@
+package com.st;
+
+import com.st.a.A;
+
+public class Aclient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A a=new A();
+		
+
+	}
+
+}

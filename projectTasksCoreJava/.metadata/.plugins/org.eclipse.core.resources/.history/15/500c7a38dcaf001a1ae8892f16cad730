@@ -1,0 +1,12 @@
+package com.st.c;
+
+
+
+
+public class C {
+	public Cresp m1(Creq areq) {
+		return null;
+		
+	}
+
+}

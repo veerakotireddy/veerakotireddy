@@ -1,0 +1,9 @@
+package com.citibank.enroll.customers.resource;
+
+import com.citibank.enroll.customers.model.EnrollmentResourceReq;
+import com.citibank.enroll.customers.model.EnrollmentResourceRes;
+
+public class EnrollmentResource {
+	public EnrollmentResourceRes enroll(EnrollmentResourceReq enrollmentResourceReq)
+
+}

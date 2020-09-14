@@ -1,0 +1,11 @@
+package com.st.b;
+
+import com.st.b.model.Bresp;
+
+public class B {
+	public Bresp m1(Breq areq) {
+		return null;
+		
+	}
+
+}

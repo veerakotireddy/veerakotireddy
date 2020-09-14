@@ -1,0 +1,12 @@
+package com.st.c;
+
+import com.st.a.model.Areq;
+import com.st.a.model.Aresp;
+
+public class A {
+	public Aresp m1(Areq areq) {
+		return null;
+		
+	}
+
+}

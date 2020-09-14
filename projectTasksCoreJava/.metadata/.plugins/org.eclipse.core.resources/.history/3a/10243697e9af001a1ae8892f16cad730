@@ -1,0 +1,12 @@
+package com.st.c;
+
+import com.st.c.model.Creq;
+import com.st.c.model.Cresp;
+
+public class C {
+	public Cresp m1(Creq creq) {
+		return null;
+		
+	}
+
+}

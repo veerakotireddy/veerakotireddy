@@ -1,0 +1,7 @@
+package com.citibank.cardverify.service.client.impl;
+
+import com.citibank.cardverify.service.client.CardverifyServicClient;
+
+public class CardverifyServicClientImpl implements CardverifyServicClient{
+
+}

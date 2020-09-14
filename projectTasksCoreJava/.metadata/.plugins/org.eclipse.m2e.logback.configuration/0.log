@@ -6857,3 +6857,222 @@ java.io.StreamCorruptedException: invalid stream header: 00000000
 2020-09-14 09:40:21,845 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-09-14 09:40:21,847 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-09-14 09:40:21,858 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 10:43:24,485 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 10:43:24,790 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 10:43:24,793 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 10:43:24,813 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:47:45,258 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-14 13:47:57,953 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 13:47:57,994 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:47:57,997 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 13:47:58,005 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\home\SampleWebApp\src\test\resources
+2020-09-14 13:48:06,545 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 13:48:06,638 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-09-14 13:48:06,671 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 13:48:06,681 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\projectTasksCoreJava\customer-enrollment-web\src\test\resources
+2020-09-14 13:48:09,632 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-resourcelayer: com.citibank.enroll.customers:enrollservice-resourcelayer:1.0-SNAPSHOT with classifier  to /enrollservice-resourcelayer/target/classes
+2020-09-14 13:48:09,636 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-processlayer: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT with classifier  to /enrollservice-processlayer/target/classes
+2020-09-14 13:48:09,636 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/cardverifyservice-client: com.citibank.enroll.customers:cardverifyservice-client:1.0-SNAPSHOT with classifier  to /cardverifyservice-client/target/classes
+2020-09-14 13:48:09,636 [Worker-12: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 13:48:09,653 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 13:48:09,666 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 13:48:09,675 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 13:48:09,682 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\projectTasksCoreJava\enrollment-service-war\src\test\resources
+2020-09-14 14:07:20,116 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:07:20,208 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:07:20,210 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:07:20,224 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:07:24,269 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:07:24,287 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:07:24,289 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:07:24,298 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:07:24,442 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:07:24,453 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:07:24,454 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:07:24,464 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:09:03,863 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:09:04,109 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:09:04,112 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:09:04,128 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\projectTasksCoreJava\enrollment-service-war\src\test\resources
+2020-09-14 14:09:12,421 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.citibank.enroll.customers:enrollment-service-war:0.0.1-SNAPSHOT @ E:\projectTasksCoreJava\enrollment-service-war\pom.xml.
+2020-09-14 14:09:12,861 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-resourcelayer: com.citibank.enroll.customers:enrollservice-resourcelayer:1.0-SNAPSHOT with classifier  to /enrollservice-resourcelayer/target/classes
+2020-09-14 14:09:12,861 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-processlayer: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT with classifier  to /enrollservice-processlayer/target/classes
+2020-09-14 14:09:12,862 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:09:13,081 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT @ E:\projectTasksCoreJava\enrollservice-processlayer\pom.xml.
+2020-09-14 14:09:13,083 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:09:13,765 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-resourcelayer: com.citibank.enroll.customers:enrollservice-resourcelayer:1.0-SNAPSHOT with classifier  to /enrollservice-resourcelayer/target/classes
+2020-09-14 14:09:13,766 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-processlayer: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT with classifier  to /enrollservice-processlayer/target/classes
+2020-09-14 14:09:13,767 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:09:13,960 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:09:16,761 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:09:16,766 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:09:16,776 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:09:16,781 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:09:16,791 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:09:17,212 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-resourcelayer: com.citibank.enroll.customers:enrollservice-resourcelayer:1.0-SNAPSHOT with classifier  to /enrollservice-resourcelayer/target/classes
+2020-09-14 14:09:17,212 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-processlayer: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT with classifier  to /enrollservice-processlayer/target/classes
+2020-09-14 14:09:17,213 [Worker-21: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:09:17,224 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:09:17,234 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:09:17,236 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:09:17,247 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\projectTasksCoreJava\enrollment-service-war\src\test\resources
+2020-09-14 14:12:41,275 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectB: com.st:ProjectB:1.0-SNAPSHOT with classifier  to /ProjectB/target/classes
+2020-09-14 14:12:41,275 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:12:41,347 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectA: com.st:ProjectA:1.0-SNAPSHOT with classifier  to /ProjectA/target/classes
+2020-09-14 14:12:41,348 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectB: com.st:ProjectB:1.0-SNAPSHOT with classifier  to /ProjectB/target/classes
+2020-09-14 14:12:41,348 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:12:41,402 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:12:41,554 [Worker-23: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SampleWebApp
+2020-09-14 14:12:41,996 [Worker-23: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for customer-enrollment-web
+2020-09-14 14:12:42,489 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-resourcelayer: com.citibank.enroll.customers:enrollservice-resourcelayer:1.0-SNAPSHOT with classifier  to /enrollservice-resourcelayer/target/classes
+2020-09-14 14:12:42,490 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-processlayer: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT with classifier  to /enrollservice-processlayer/target/classes
+2020-09-14 14:12:42,492 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:12:42,506 [Worker-23: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for enrollment-service-war
+2020-09-14 14:12:42,548 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:12:44,058 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:44,122 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:12:44,140 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:44,151 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:44,888 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:44,899 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:44,901 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:44,911 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,100 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,112 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,113 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,123 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,303 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:12:45,307 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,338 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,340 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,366 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,720 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectB: com.st:ProjectB:1.0-SNAPSHOT with classifier  to /ProjectB/target/classes
+2020-09-14 14:12:45,720 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:12:45,723 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,734 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,735 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,742 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,840 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectA: com.st:ProjectA:1.0-SNAPSHOT with classifier  to /ProjectA/target/classes
+2020-09-14 14:12:45,840 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectB: com.st:ProjectB:1.0-SNAPSHOT with classifier  to /ProjectB/target/classes
+2020-09-14 14:12:45,841 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:12:45,844 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,855 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,856 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,866 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,923 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,943 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:45,945 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:45,956 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\home\SampleWebApp\src\test\resources
+2020-09-14 14:12:45,957 [Worker-24: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SampleWebApp
+2020-09-14 14:12:45,958 [Worker-24: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SampleWebApp
+2020-09-14 14:12:45,967 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:49,380 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:49,389 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-09-14 14:12:49,415 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:49,426 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\projectTasksCoreJava\customer-enrollment-web\src\test\resources
+2020-09-14 14:12:49,426 [Worker-24: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of customer-enrollment-web
+2020-09-14 14:12:49,427 [Worker-24: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for customer-enrollment-web
+2020-09-14 14:12:49,435 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:50,944 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:50,956 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-09-14 14:12:51,020 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:51,028 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:51,399 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:12:51,402 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:51,409 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:51,410 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:51,418 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:52,105 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:52,132 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:52,133 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:52,144 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:52,426 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-resourcelayer: com.citibank.enroll.customers:enrollservice-resourcelayer:1.0-SNAPSHOT with classifier  to /enrollservice-resourcelayer/target/classes
+2020-09-14 14:12:52,427 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-processlayer: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT with classifier  to /enrollservice-processlayer/target/classes
+2020-09-14 14:12:52,434 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:12:52,447 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:52,461 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:12:52,462 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:12:52,472 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\projectTasksCoreJava\enrollment-service-war\src\test\resources
+2020-09-14 14:12:52,473 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of enrollment-service-war
+2020-09-14 14:12:52,473 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for enrollment-service-war
+2020-09-14 14:12:52,477 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:19,339 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectB: com.st:ProjectB:1.0-SNAPSHOT with classifier  to /ProjectB/target/classes
+2020-09-14 14:14:19,339 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:14:19,356 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectA: com.st:ProjectA:1.0-SNAPSHOT with classifier  to /ProjectA/target/classes
+2020-09-14 14:14:19,356 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectB: com.st:ProjectB:1.0-SNAPSHOT with classifier  to /ProjectB/target/classes
+2020-09-14 14:14:19,356 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:14:19,380 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:14:19,439 [Worker-23: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SampleWebApp
+2020-09-14 14:14:19,521 [Worker-23: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for customer-enrollment-web
+2020-09-14 14:14:19,618 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-resourcelayer: com.citibank.enroll.customers:enrollservice-resourcelayer:1.0-SNAPSHOT with classifier  to /enrollservice-resourcelayer/target/classes
+2020-09-14 14:14:19,619 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-processlayer: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT with classifier  to /enrollservice-processlayer/target/classes
+2020-09-14 14:14:19,619 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:14:19,625 [Worker-23: Cleaning all projects] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for enrollment-service-war
+2020-09-14 14:14:19,647 [Worker-23: Cleaning all projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:14:20,325 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:20,403 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-14 14:14:20,431 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:20,447 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,015 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,026 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,027 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,044 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,168 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,190 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,191 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,203 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,310 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:14:21,313 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,323 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,324 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,334 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,448 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectB: com.st:ProjectB:1.0-SNAPSHOT with classifier  to /ProjectB/target/classes
+2020-09-14 14:14:21,448 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:14:21,450 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,483 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,484 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,494 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,569 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectA: com.st:ProjectA:1.0-SNAPSHOT with classifier  to /ProjectA/target/classes
+2020-09-14 14:14:21,569 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectB: com.st:ProjectB:1.0-SNAPSHOT with classifier  to /ProjectB/target/classes
+2020-09-14 14:14:21,569 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ProjectC: com.st:ProjectC:1.0-SNAPSHOT with classifier  to /ProjectC/target/classes
+2020-09-14 14:14:21,572 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,581 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,583 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,593 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,812 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:21,826 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:21,837 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\home\SampleWebApp\src\test\resources
+2020-09-14 14:14:21,837 [Worker-23: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SampleWebApp
+2020-09-14 14:14:21,837 [Worker-23: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SampleWebApp
+2020-09-14 14:14:21,845 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:22,750 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:22,760 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-09-14 14:14:22,772 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:22,782 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\projectTasksCoreJava\customer-enrollment-web\src\test\resources
+2020-09-14 14:14:22,782 [Worker-23: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of customer-enrollment-web
+2020-09-14 14:14:22,782 [Worker-23: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for customer-enrollment-web
+2020-09-14 14:14:22,787 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:23,257 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:23,271 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-09-14 14:14:23,286 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:23,296 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:23,487 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:14:23,491 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:23,503 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:23,504 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:23,516 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:23,937 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:23,962 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:23,963 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:23,974 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:24,043 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-resourcelayer: com.citibank.enroll.customers:enrollservice-resourcelayer:1.0-SNAPSHOT with classifier  to /enrollservice-resourcelayer/target/classes
+2020-09-14 14:14:24,043 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollservice-processlayer: com.citibank.enroll.customers:enrollservice-processlayer:1.0-SNAPSHOT with classifier  to /enrollservice-processlayer/target/classes
+2020-09-14 14:14:24,045 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/enrollment-dao: com.citibank.enroll.customers:enrollment-dao:1.0-SNAPSHOT with classifier  to /enrollment-dao/target/classes
+2020-09-14 14:14:24,054 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:24,065 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 14:14:24,066 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-14 14:14:24,076 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\projectTasksCoreJava\enrollment-service-war\src\test\resources
+2020-09-14 14:14:24,076 [Worker-28: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of enrollment-service-war
+2020-09-14 14:14:24,077 [Worker-28: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for enrollment-service-war
+2020-09-14 14:14:24,082 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
